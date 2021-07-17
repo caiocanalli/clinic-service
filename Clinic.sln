@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8A0AB9A4-6F88-4BCB-9383-5AD6DC5F3FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0DA21BEC-C3DA-41EE-94B6-75F16FA4DE48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{EF20DB43-9D8E-472F-A802-76E244B29128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D98B368F-0943-40D2-8097-A319245D543E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Application", "src\Clinic.Application\Clinic.Application.csproj", "{0EE90129-4EE1-4310-8C2D-E8BBB0D32394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Domain", "src\Clinic.Domain\Clinic.Domain.csproj", "{10550DF2-D757-4283-8285-E82ADE3838AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Infra.Data", "src\Clinic.Infra.Data\Clinic.Infra.Data.csproj", "{A0C652A2-6477-477A-9A8D-CAE90ADBD288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Infra.IoC", "src\Clinic.Infra.IoC\Clinic.Infra.IoC.csproj", "{7D9C1B5C-94EB-4E02-BFD7-05B1E991A23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Services.Api", "src\Clinic.Services.Api\Clinic.Services.Api.csproj", "{F40F3B46-2B2D-48E4-A9A6-D259ADDBC8BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EE90129-4EE1-4310-8C2D-E8BBB0D32394} = {8A0AB9A4-6F88-4BCB-9383-5AD6DC5F3FDC}
+		{10550DF2-D757-4283-8285-E82ADE3838AF} = {0DA21BEC-C3DA-41EE-94B6-75F16FA4DE48}
+		{A0C652A2-6477-477A-9A8D-CAE90ADBD288} = {EF20DB43-9D8E-472F-A802-76E244B29128}
+		{7D9C1B5C-94EB-4E02-BFD7-05B1E991A23F} = {EF20DB43-9D8E-472F-A802-76E244B29128}
+		{F40F3B46-2B2D-48E4-A9A6-D259ADDBC8BF} = {D98B368F-0943-40D2-8097-A319245D543E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE90129-4EE1-4310-8C2D-E8BBB0D32394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE90129-4EE1-4310-8C2D-E8BBB0D32394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE90129-4EE1-4310-8C2D-E8BBB0D32394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE90129-4EE1-4310-8C2D-E8BBB0D32394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10550DF2-D757-4283-8285-E82ADE3838AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10550DF2-D757-4283-8285-E82ADE3838AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10550DF2-D757-4283-8285-E82ADE3838AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10550DF2-D757-4283-8285-E82ADE3838AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C652A2-6477-477A-9A8D-CAE90ADBD288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C652A2-6477-477A-9A8D-CAE90ADBD288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C652A2-6477-477A-9A8D-CAE90ADBD288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C652A2-6477-477A-9A8D-CAE90ADBD288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9C1B5C-94EB-4E02-BFD7-05B1E991A23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9C1B5C-94EB-4E02-BFD7-05B1E991A23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9C1B5C-94EB-4E02-BFD7-05B1E991A23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9C1B5C-94EB-4E02-BFD7-05B1E991A23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40F3B46-2B2D-48E4-A9A6-D259ADDBC8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40F3B46-2B2D-48E4-A9A6-D259ADDBC8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40F3B46-2B2D-48E4-A9A6-D259ADDBC8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40F3B46-2B2D-48E4-A9A6-D259ADDBC8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
